@@ -1,0 +1,26 @@
+body{
+margin: 0%;
+padding: 0%;
+background-color: hsl(0, 0%, 8%);
+margin-top: 50px;
+color: white;
+font-size: 14px;
+}
+.first{
+background-color: hsl(0, 0%, 12%);
+max-width: 400px;
+padding: 30px;
+margin: auto;
+text-align: center;
+}
+h2{
+   color:hsl(75, 94%, 57%) ; 
+}
+img{
+    border-radius: 50%;
+}
+p{
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+}
