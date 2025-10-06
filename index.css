@@ -1,31 +1,97 @@
 body{
-margin: 0%;
-padding: 0%;
-background-color: hsl(0, 0%, 8%);
-margin-top: 10px;
-color: white;
-font-size: 14px;
+    background-color: #333;
+    max-width: 100%;
 }
-.first{
-background-color: hsl(0, 0%, 12%);
-max-width:250px;
-padding: 30px;
-margin: auto;
-text-align: center;
-}
-h2{
-   color:hsl(75, 94%, 57%) ; 
-}
-img{
-    border-radius: 50%;
-}
-p{
-    background-color: hsl(0, 0%, 20%);
+nav{
+    display: inline-block;
+    background-color: black;
     padding: 10px;
-    border-radius: 10px;
+    padding-right:30px ;
+    position: absolute;
+    right: 400px;
+    bottom: 300px;
+    
+    
 }
-@media screen and(max-width:760px){
-    .first{
-        max-width: 760px;
-    }
+.navbar{
+   box-shadow: 2px 4px 6px 4px greenyellow;
+   animation: breath 1.5s infinite ease-in-out alternate;
+}
+@keyframes breath{
+    from{transform: translate(0px);}
+    to{transform: translateY(20px);}
+}
+.menu{
+    transition:0.5s ease;
+}
+.menu:hover{
+color: greenyellow;
+border-bottom: 3px solid greenyellow;
+padding: 3px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+     
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.magic{
+    color: greenyellow;
+    position: absolute;
+    right: 400px;
+    top:150px;
+    font-size: larger;
+}
+.one{animation: tick 1s  alternate  ease-in-out;}
+@keyframes tick{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.two{animation: li 1.1s   alternate   ease-in-out;}
+@keyframes li{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.three{animation: see 1.2s   alternate  ease-in-out;}
+@keyframes see{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.four{animation: ti 1.25s   alternate   ease-in-out;}
+@keyframes ti{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.five{animation: ck 1.4s   alternate   ease-in-out;}
+@keyframes ck{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.six{animation: sii 1.5s   alternate   ease-in-out;}
+@keyframes sii{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.seven{animation: fek 1.3s   alternate  ease-in-out;}
+@keyframes fek{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.eight{animation: fil 1.2s   alternate   ease-in-out;}
+@keyframes fil{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+.nine{animation: for 1.1s   alternate   ease-in-out;}
+@keyframes for{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
+}
+@keyframes you{
+    from{transform: translate(0px); }
+    to{transform: translateY(30px); }
 }

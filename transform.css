@@ -1,0 +1,82 @@
+body{
+background-color: blueviolet;
+
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+.move{
+   /* transform: translateX(-200px);
+    transform: translateY(200px);*/
+    /*transform: translate(200px,100px)*/
+    /*transition: 1s 0.3s ease-in;*/
+    animation: wander 20s infinite linear;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style: none;
+}
+/*.move:hover{
+    transform: rotateY(360deg);
+    
+    
+}*/
+.button{
+    padding: 10px;
+    color: white;
+    background-color: burlywood;
+    border-radius: 50px;
+    border: 1px burlywood;
+    transition: scale (0.5s);
+  
+}
+
+
+.button:hover{
+      transform: scale(0.7);
+}
+.Rotate{
+    width: 80px;
+    border: 1px soild black;
+    background-color: white;
+    border-radius: 50%;
+    padding:50px ;
+    height: 80px;
+    margin: 0px 200px auto;
+    transition: 1s 0.3s ease-in;
+   /* animation-name: drive;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);*/
+animation: drive 3s infinite alternate cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+/*.Rotate:hover{
+    transform: rotate(360deg);
+    background-color: chocolate;}*/
+@keyframes drive{
+    from{transform: translate(0);}
+    to {transform:translateY(200px); }
+    
+}
+@keyframes wander{
+    0%{ transform:translatex(-1300px)}
+    10%{transform: translatex(-1100px);}
+    20%{ transform: translatex(-900px);}
+    30%{ transform: translatex(-700px);}
+    40%{ transform: translatex(-500px);}
+    50%{ transform: translatex(-300px);}
+    60%{ transform: translatex(-100px);}
+    70%{ transform: translatex(200px);}
+    80%{ transform: translateX(500px);}
+    90%{ transform: translateX(800px);}
+    100%{ transform: translateX(1300px);}
+}
+.but_3{
+    transition:1s}
+    
+
